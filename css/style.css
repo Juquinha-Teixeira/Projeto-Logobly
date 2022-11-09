@@ -197,3 +197,30 @@ main{
     padding: 20px 0;
     font-size: 14px;
 }
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 4rem 2rem 2rem 2rem;
+    font-size: 14px;
+    background-color: rgb(248, 241, 241);
+}
+
+footer h3{
+    font-size: 1.2rem;
+}
+
+.footer-box ul:nth-child(2n){
+    padding-top: 10px;
+}
+
+.footer-box li{
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.nav-list-icons{
+    display: flex;
+    gap: 20px;
+}
